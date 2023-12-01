@@ -18,7 +18,6 @@ def generate_review(review):
 
     response_message = response["choices"][0]["message"]["content"]
     if response_message == "happy":
-        # TODO 1
-        return ""
-    # TODO 2
-    return ""
+        return "Thanks for shopping with us!"
+
+    return "Sorry to hear that. Here's a coupon for 20% off, type AGIGOD to use it."
